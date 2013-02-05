@@ -20,7 +20,7 @@ public class DocIdResponseHandler extends StdResponseHandler<List<String>> {
 	private final JsonFactory jsonFactory;
 
 	public DocIdResponseHandler(ObjectMapper om) {
-		jsonFactory = om.getJsonFactory();
+		jsonFactory = om.getFactory();
 	}
 
 	@Override
